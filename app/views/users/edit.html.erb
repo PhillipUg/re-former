@@ -1,5 +1,5 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>Edit User</h1>
+
 
 <!-- <form accept-charset="UTF-8" action="/users" method="post">
 	<input type="hidden"  name="utf8" value="&#x2713;">
@@ -29,15 +29,15 @@
 <%# end %> -->
 
 
-
-<%= form_for(@user) do |f| %>
+<%= form_for @user, url: edit_user_path(@user) do |f| %>
 		<%= f.label :Username %><br>
 		<%= f.text_field :username, placeholder: "Username" %><br>
+
 		<%= f.label :Email %><br>
 		<%= f.email_field :email, placeholder: "example@example.com" %><br>
+
 		<%= f.label :Password %><br>
 		<%= f.password_field :password %><br><br>
 
 		<%= f.submit %>
 <% end %>
-  
