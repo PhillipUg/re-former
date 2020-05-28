@@ -50,8 +50,6 @@ In this project, we build forms the old fashioned way and then the Rails way.
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-  * [Testing](#testing)
-* [Live Version](#live-version)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
