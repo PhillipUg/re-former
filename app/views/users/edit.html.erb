@@ -29,7 +29,7 @@
 <%# end %> -->
 
 
-<%= form_for @user, url: edit_user_path(@user) do |f| %>
+<%= form_for @user do |f| %>
 		<%= f.label :Username %><br>
 		<%= f.text_field :username, placeholder: "Username" %><br>
 
